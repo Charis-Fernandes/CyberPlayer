@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #ff00ff;
+  --background-color: #0a0a0a;
+  --text-color: #ffffff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Orbitron', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 90vw; /* Responsive width: 90% of the viewport */
+  max-height: 90vh; /* Responsive height: 90% of the viewport */
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 15px var(--primary-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.App-header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px var(--primary-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button, .upload-btn {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover, .upload-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.upload-btn {
+  display: inline-block;
+}
+
+.library-active {
+  margin-left: 0; /* Prevent sliding */
+  display: block; /* Or control visibility */
+}
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .App {
+    max-width: 95vw;
+    max-height: 80vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  button, .upload-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
