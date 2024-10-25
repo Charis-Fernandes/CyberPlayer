@@ -30,7 +30,7 @@
    ```bash
    git clone https://github.com/your-username/cyber-music-player.git
    cd IP
-   cd cyber-music-player
+   cd music
 2. Install the dependencies:
     ```bash
     npm install
