@@ -2,6 +2,15 @@
 
 **Cyber Music Player** is a cyberpunk-themed music player built with ReactJS, HTML, CSS, and JavaScript. It uses IndexedDB (IDB) to store music files locally that users upload. The player features essential music controls like play, pause, previous, next, and shuffle. It also includes a library view to display the list of available songs.
 
+## Demo
+
+Here’s a demo of the Cyber Music Player in action:
+
+<video width="600" controls>
+  <source src="/CyberPlayer-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Features
 
 - **Cyberpunk Theme**: Futuristic and stylish design inspired by cyberpunk aesthetics.
