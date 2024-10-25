@@ -4,12 +4,8 @@
 
 ## Demo
 
-Here’s a demo of the Cyber Music Player in action:
+[Watch the demo](./CyberPlayer-demo.mp4)
 
-<video width="600" controls>
-  <source src="./CyberPlayer-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Features
 
