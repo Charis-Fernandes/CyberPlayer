@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Watch the demo](./CyberPlayer-demo.mp4)
+![Cyber Music Player Demo](./CyberPlayer-demo.gif)
 
 
 ## Features
